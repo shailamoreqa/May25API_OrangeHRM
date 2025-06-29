@@ -8,7 +8,6 @@ import pages.QualificationSkillPage;
 import pages.TokenService;
 
 import java.util.*;
-
 public class VerifyWidgetTest {
     @Test
     public void VerifyWidget() {
