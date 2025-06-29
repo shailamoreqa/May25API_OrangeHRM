@@ -7,7 +7,7 @@ name: Java CI with Maven
     branches:
       - master
 jobs:
-  build:
+  Regress:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,4 +18,4 @@ jobs:
           distribution: temurin
           cache: maven
       - name: Build with Maven
-      - name: mvn Clean Test
+      - name: mvn clean Test
