@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/API_Shaila/RestAssured/May25API_OrangeHRM/src/test/java/testScripts/VerifyWidgetTest.java">
+        <classes>
+            <class name="testScripts.VerifyWidgetTest">
+                <methods>
+                    <include name="VerifyWidget"/>
+                    <include name="verifySkillsAscending"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
