@@ -43,7 +43,7 @@ jobs:
           allure_report: allure-report
           allure_history: allure-history
 
-      - name: Deploy report to Github Pages
+      - name: Deploy report to Github Pages orangeHRM
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
