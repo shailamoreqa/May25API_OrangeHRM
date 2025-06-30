@@ -23,15 +23,13 @@ jobs:
       run: | 
             mvn clean test
             mvn -version
-
-      - name: Get Allure history
+    - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
       continue-on-error: true
       with:
       ref: gh-pages
       path: gh-pages
-
     - name: Allure report Generates
       uses: ./allure-report-action
       if: always()
