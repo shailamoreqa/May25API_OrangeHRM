@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://shailamoreqa.github.io/May25API_OrangeHRM",
+  "buildOrder" : 29,
+  "buildName" : "GitHub Actions Run #15989621767",
+  "buildUrl" : "https://github.com/shailamoreqa/May25API_OrangeHRM/actions/runs/15989621767",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/29"
+} ]
