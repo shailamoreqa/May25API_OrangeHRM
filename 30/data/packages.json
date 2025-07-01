@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "testScripts.VerifyWidgetTest",
+    "children" : [ {
+      "name" : "VerifyWidget",
+      "uid" : "b17a1a27153f0a3c",
+      "parentUid" : "0f5e821831ad2bc8e808dd0a783a5543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751343216776,
+        "stop" : 1751343223863,
+        "duration" : 7087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verifySkillsAscending",
+      "uid" : "17c35bbaa908dbf",
+      "parentUid" : "0f5e821831ad2bc8e808dd0a783a5543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751343223907,
+        "stop" : 1751343225170,
+        "duration" : 1263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testScripts.VerifyWidgetTest"
+  } ],
+  "name" : "packages"
+}
