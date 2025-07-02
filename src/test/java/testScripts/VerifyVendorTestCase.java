@@ -18,7 +18,7 @@ public class VerifyVendorTestCase {
 
         VendorPage vendorPage = new VendorPage();
         int vendorCode= vendorPage.nextAvailableVendorId();
-
+//
         VendorCreatePayload vendorCreatePayload = VendorCreatePayload.builder() .vendorName(GenerateData.generateVendorName())
                 .address(GenerateData.generateAddress())
                 .email(GenerateData.name() + "@gmail.com")
