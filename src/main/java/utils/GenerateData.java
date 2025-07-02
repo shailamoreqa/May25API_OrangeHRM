@@ -19,4 +19,23 @@ public class GenerateData {
         return faker.commerce().productName();
     }
 
+    public  static String generateVendorName(){
+        return faker.company().bs();
+    }
+
+    public  static String generateCode(){
+        return faker.random().toString();
+    }
+    public  static String generateAddress(){
+        return faker.country().capital();
+    }
+
+    public  static String generateWebSite(){
+        return "https://"+faker.company().url();
+    }
+    public  static String generatePhoneNo(){
+        return faker.phoneNumber().phoneNumber();
+    }
+
+
 }

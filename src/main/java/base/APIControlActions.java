@@ -3,8 +3,10 @@ package base;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import java.io.File;
 
 import java.sql.Statement;
 import java.util.*;
@@ -43,7 +45,10 @@ public class APIControlActions {
             requestSpecification = RestAssured.given();
     }
 
-
+    protected void setPayload(String payloadBody) {
+        buildRequestspecBuilder();
+        requestSpecification.body(payloadBody);
+    }
 
     protected Response executeGetRequest(String endPoint) {
         buildRequestspecBuilder();
@@ -63,6 +68,29 @@ public class APIControlActions {
         requestSpecification=null;
         return response;
 }
+
+    protected Response executePostRequest(String endPoint) {
+        buildRequestspecBuilder();
+        Response response= RestAssured
+                .given().log().all()
+                .filter(new AllureRestAssured())
+                .spec(requestSpecification)
+                .baseUri(BASE_URI)
+                .accept(ContentType.JSON)
+                .contentType(ContentType.JSON)
+                .cookies(cookies)
+                .header("Authorization", "Bearer " + BearerToken)
+                .when()
+                .post(endPoint)
+                .then()
+                .extract().response();
+        requestSpecification=null;
+        return response;
+    }
+
+    public boolean validateSchema(String schemaFilePath,String responsePayload){
+       return JsonSchemaValidator.matchesJsonSchema(new File(schemaFilePath)).matches(responsePayload);
+    }
 
 
 }
