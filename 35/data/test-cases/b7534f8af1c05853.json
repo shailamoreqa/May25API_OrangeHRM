@@ -1,0 +1,146 @@
+{
+  "uid" : "b7534f8af1c05853",
+  "name" : "createVendor",
+  "fullName" : "testScripts.VerifyVendorTestCase.createVendor",
+  "historyId" : "fe18de0331d88c42033721cd6f81408",
+  "time" : {
+    "start" : 1751457381484,
+    "stop" : 1751457389406,
+    "duration" : 7922
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d46d9b81297817db",
+      "name" : "Request",
+      "source" : "d46d9b81297817db.html",
+      "type" : "text/html",
+      "size" : 1607
+    }, {
+      "uid" : "d03d70316d702054",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "d03d70316d702054.html",
+      "type" : "text/html",
+      "size" : 19385
+    }, {
+      "uid" : "e372e10fb5d6ff61",
+      "name" : "Request",
+      "source" : "e372e10fb5d6ff61.html",
+      "type" : "text/html",
+      "size" : 2346
+    }, {
+      "uid" : "363e17df16057bd",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "363e17df16057bd.html",
+      "type" : "text/html",
+      "size" : 2755
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testScripts.VerifyVendorTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "testScripts.VerifyVendorTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "createVendor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "D:/API_Shaila/RestAssured/May25API_OrangeHRM/src/test/java/testScripts/VerifyVendorTestCase.java"
+  }, {
+    "name" : "subSuite",
+    "value" : "testScripts.VerifyVendorTestCase"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1689-207"
+  }, {
+    "name" : "thread",
+    "value" : "2696@fv-az1689-207.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ed410a82edeb337d",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/34/#testresult/ed410a82edeb337d",
+        "status" : "failed",
+        "statusDetails" : "expected [200] but found [401]",
+        "time" : {
+          "start" : 1751449836694,
+          "stop" : 1751449899831,
+          "duration" : 63137
+        }
+      }, {
+        "uid" : "8b5f107a5fb04704",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/33/#testresult/8b5f107a5fb04704",
+        "status" : "failed",
+        "statusDetails" : "expected [200] but found [401]",
+        "time" : {
+          "start" : 1751449705049,
+          "stop" : 1751449730645,
+          "duration" : 25596
+        }
+      }, {
+        "uid" : "f2b46b9f9f61a29b",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/32/#testresult/f2b46b9f9f61a29b",
+        "status" : "failed",
+        "statusDetails" : "expected [200] but found [401]",
+        "time" : {
+          "start" : 1751449385184,
+          "stop" : 1751449441631,
+          "duration" : 56447
+        }
+      }, {
+        "uid" : "7b4885cf60feab11",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/31/#testresult/7b4885cf60feab11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751448022893,
+          "stop" : 1751448030718,
+          "duration" : 7825
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7534f8af1c05853.json",
+  "parameterValues" : [ ]
+}
