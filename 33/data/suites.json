@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "testScripts.VerifyVendorTestCase",
+        "children" : [ {
+          "name" : "createVendor",
+          "uid" : "8b5f107a5fb04704",
+          "parentUid" : "db10907d110c1c7143738545d53f1df8",
+          "status" : "failed",
+          "time" : {
+            "start" : 1751449705049,
+            "stop" : 1751449730645,
+            "duration" : 25596
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "db10907d110c1c7143738545d53f1df8"
+      }, {
+        "name" : "testScripts.VerifyWidgetTest",
+        "children" : [ {
+          "name" : "VerifyWidget",
+          "uid" : "d1de334d5d7b6730",
+          "parentUid" : "a3b6ca21b8e0d0f1307cac14aeacf2d1",
+          "status" : "failed",
+          "time" : {
+            "start" : 1751449730680,
+            "stop" : 1751449734334,
+            "duration" : 3654
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySkillsAscending",
+          "uid" : "11bb2a3519b91642",
+          "parentUid" : "a3b6ca21b8e0d0f1307cac14aeacf2d1",
+          "status" : "broken",
+          "time" : {
+            "start" : 1751449734337,
+            "stop" : 1751449735296,
+            "duration" : 959
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a3b6ca21b8e0d0f1307cac14aeacf2d1"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}

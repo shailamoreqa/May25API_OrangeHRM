@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Jul 02 09:48:54 GMT 2025","Wed Jul 02 09:48:55 GMT 2025","959","Surefire suite","Surefire test","testScripts.VerifyWidgetTest","testScripts.VerifyWidgetTest","verifySkillsAscending","verifySkillsAscending",""
+"failed","Wed Jul 02 09:48:50 GMT 2025","Wed Jul 02 09:48:54 GMT 2025","3654","Surefire suite","Surefire test","testScripts.VerifyWidgetTest","testScripts.VerifyWidgetTest","VerifyWidget","VerifyWidget",""
+"failed","Wed Jul 02 09:48:25 GMT 2025","Wed Jul 02 09:48:50 GMT 2025","25596","Surefire suite","Surefire test","testScripts.VerifyVendorTestCase","testScripts.VerifyVendorTestCase","createVendor","createVendor",""

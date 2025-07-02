@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [200] but found [401]",
+      "children" : [ {
+        "name" : "createVendor",
+        "uid" : "8b5f107a5fb04704",
+        "parentUid" : "919568951de77eb0bbf43a9a376df8e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751449705049,
+          "stop" : 1751449730645,
+          "duration" : 25596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyWidget",
+        "uid" : "d1de334d5d7b6730",
+        "parentUid" : "919568951de77eb0bbf43a9a376df8e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1751449730680,
+          "stop" : 1751449734334,
+          "duration" : 3654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "919568951de77eb0bbf43a9a376df8e5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"java.util.List.size()\" because the return value of \"io.restassured.path.json.JsonPath.getList(String)\" is null",
+      "children" : [ {
+        "name" : "verifySkillsAscending",
+        "uid" : "11bb2a3519b91642",
+        "parentUid" : "4f71d5d55e34b0f4abbd596c69fcdf1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1751449734337,
+          "stop" : 1751449735296,
+          "duration" : 959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f71d5d55e34b0f4abbd596c69fcdf1a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
