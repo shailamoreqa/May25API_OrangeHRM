@@ -1,13 +1,8 @@
 package testScripts;
 
-import Entity.CreatePayloadTest.Book;
 import Entity.CreatePayloadTest.BookStore;
 import Entity.CreatePayloadTest.PracticeSamples.StudentInformation;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import io.restassured.response.Response;
-
-import java.util.ArrayList;
 
 public class DeSerilization {
     public static void main(String[] args) throws Exception {

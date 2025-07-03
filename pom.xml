@@ -87,6 +87,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.3</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <env>${environment}</env>
+                    </systemPropertyVariables>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
@@ -94,4 +97,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

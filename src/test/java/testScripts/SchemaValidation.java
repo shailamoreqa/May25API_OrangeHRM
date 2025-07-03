@@ -3,6 +3,8 @@ package testScripts;
 import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
+import org.testng.Assert;
+
 import java.io.File;
 
 public class SchemaValidation {
@@ -19,8 +21,11 @@ public class SchemaValidation {
                 .given()
                     .get("https://mocki.io/v1/24591511-c33b-403c-a991-74b65b8fd335")
                .then()
-                  .body(JsonSchemaValidator.matchesJsonSchema(new File("productSchema.json")))
+                  //.body(JsonSchemaValidator.matchesJsonSchema(new File("productSchema.json")))
                    .extract().response();
+       JsonSchemaValidator jsonSchemaValidator=JsonSchemaValidator.matchesJsonSchema(new File("productSchema.json"));
+       boolean isSchemaValid=jsonSchemaValidator.matches(response.asString());
+        Assert.assertTrue(isSchemaValid);
        System.out.println(response.asPrettyString());
     }
 }
