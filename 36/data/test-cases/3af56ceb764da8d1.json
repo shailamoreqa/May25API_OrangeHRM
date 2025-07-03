@@ -1,0 +1,205 @@
+{
+  "uid" : "3af56ceb764da8d1",
+  "name" : "verifySkillsAscending",
+  "fullName" : "testScripts.VerifyWidgetTest.verifySkillsAscending",
+  "historyId" : "d7dd0c3d196236401f1cdf62c3d76107",
+  "time" : {
+    "start" : 1751538984293,
+    "stop" : 1751538993068,
+    "duration" : 8775
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1751538878359,
+      "stop" : 1751538954262,
+      "duration" : 75903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf15f7ac5ea05c54",
+      "name" : "Request",
+      "source" : "bf15f7ac5ea05c54.html",
+      "type" : "text/html",
+      "size" : 1695
+    }, {
+      "uid" : "95219d54b3fb8f9b",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "95219d54b3fb8f9b.html",
+      "type" : "text/html",
+      "size" : 5451
+    }, {
+      "uid" : "d3976f2e205f7008",
+      "name" : "Request",
+      "source" : "d3976f2e205f7008.html",
+      "type" : "text/html",
+      "size" : 1591
+    }, {
+      "uid" : "a39954ac2f4b85d9",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "a39954ac2f4b85d9.html",
+      "type" : "text/html",
+      "size" : 5451
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1751538993069,
+      "stop" : 1751538993069,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testScripts.VerifyWidgetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testScripts.VerifyWidgetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySkillsAscending"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "D:/API_Shaila/RestAssured/May25API_OrangeHRM/src/test/java/testScripts/VerifyWidgetTest.java"
+  }, {
+    "name" : "subSuite",
+    "value" : "testScripts.VerifyWidgetTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2233-576"
+  }, {
+    "name" : "thread",
+    "value" : "2684@fv-az2233-576.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "6fdf5c1f755858be",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/35/#testresult/6fdf5c1f755858be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751457394773,
+          "stop" : 1751457396022,
+          "duration" : 1249
+        }
+      }, {
+        "uid" : "8c4fb242dd3fbd0c",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/34/#testresult/8c4fb242dd3fbd0c",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.List.size()\" because the return value of \"io.restassured.path.json.JsonPath.getList(String)\" is null",
+        "time" : {
+          "start" : 1751449903729,
+          "stop" : 1751449904702,
+          "duration" : 973
+        }
+      }, {
+        "uid" : "11bb2a3519b91642",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/33/#testresult/11bb2a3519b91642",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.List.size()\" because the return value of \"io.restassured.path.json.JsonPath.getList(String)\" is null",
+        "time" : {
+          "start" : 1751449734337,
+          "stop" : 1751449735296,
+          "duration" : 959
+        }
+      }, {
+        "uid" : "431b714c471763e6",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/32/#testresult/431b714c471763e6",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"java.util.List.size()\" because the return value of \"io.restassured.path.json.JsonPath.getList(String)\" is null",
+        "time" : {
+          "start" : 1751449466219,
+          "stop" : 1751449474267,
+          "duration" : 8048
+        }
+      }, {
+        "uid" : "dfc5833b0aef9363",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/31/#testresult/dfc5833b0aef9363",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751448036801,
+          "stop" : 1751448038371,
+          "duration" : 1570
+        }
+      }, {
+        "uid" : "17c35bbaa908dbf",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/30/#testresult/17c35bbaa908dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751343223907,
+          "stop" : 1751343225170,
+          "duration" : 1263
+        }
+      }, {
+        "uid" : "b0db3522fed265e5",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/29/#testresult/b0db3522fed265e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751343057243,
+          "stop" : 1751343058552,
+          "duration" : 1309
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3af56ceb764da8d1.json",
+  "parameterValues" : [ ]
+}
