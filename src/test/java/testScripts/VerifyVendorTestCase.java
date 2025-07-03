@@ -2,20 +2,17 @@ package testScripts;
 
 import Entity.CreatePayloadTest.VendorCreatePayload;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import constants.FileConstants;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.TokenService;
 import pages.VendorPage;
-import utils.GenerateData;
+import utility.GenerateData;
 
-public class VerifyVendorTestCase {
+public class VerifyVendorTestCase extends BaseTest {
 
 @Test
         public void createVendor() throws Exception{
-        TokenService tokenService = new TokenService();
-        tokenService.generateAccessToken("admin", "p94LqPKLq@");
-
         VendorPage vendorPage = new VendorPage();
         int vendorCode= vendorPage.nextAvailableVendorId();
 //
@@ -34,6 +31,6 @@ public class VerifyVendorTestCase {
 
 
         //Schema validation
-        Assert.assertTrue(vendorPage.validateSchema("src/test/resources/SchemaFiles/vendor.json",response.asString()));
+        Assert.assertTrue(vendorPage.validateSchema(FileConstants.CREATE_VENDOR_SCHEMA,response.asString()));
     }
 }

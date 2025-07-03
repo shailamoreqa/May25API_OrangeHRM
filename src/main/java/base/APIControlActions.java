@@ -72,7 +72,7 @@ public class APIControlActions {
     protected Response executePostRequest(String endPoint) {
         buildRequestspecBuilder();
         Response response= RestAssured
-                .given().log().all()
+                .given()
                 .filter(new AllureRestAssured())
                 .spec(requestSpecification)
                 .baseUri(BASE_URI)

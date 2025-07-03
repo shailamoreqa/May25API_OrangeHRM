@@ -8,11 +8,11 @@ import pages.QualificationSkillPage;
 import pages.TokenService;
 
 import java.util.*;
-public class VerifyWidgetTest {
+public class VerifyWidgetTest extends BaseTest{
     @Test
     public void VerifyWidget() {
-        TokenService tokenService = new TokenService();
-        tokenService.generateAccessToken("Admin","p94LqPKLq@");
+        //TokenService tokenService = new TokenService();
+        //tokenService.generateAccessToken("Admin","p94LqPKLq@");
 
         /// TestCase Execution
         System.out.println("====Get the Widget List=====");
@@ -32,9 +32,9 @@ public class VerifyWidgetTest {
                 "Headcount by Location",
                 "Annual Basic Payment by Location");
         Assert.assertEquals(response.statusCode(),200);
-        System.out.println(expectedWidgetList);
+       // System.out.println(expectedWidgetList);
         List<String>actualWidgetList=response.jsonPath().getList("data.title");
-        System.out.println(actualWidgetList);
+        //System.out.println(actualWidgetList);
         Assert.assertEquals(actualWidgetList,expectedWidgetList);
 
     }
