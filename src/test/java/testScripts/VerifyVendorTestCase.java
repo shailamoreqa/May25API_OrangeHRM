@@ -3,6 +3,7 @@ package testScripts;
 import Entity.CreatePayloadTest.VendorCreatePayload;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import constants.FileConstants;
+import constants.StatusCode;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -26,11 +27,12 @@ public class VerifyVendorTestCase extends BaseTest {
         ObjectMapper mapper = new ObjectMapper();
         String vendor_Payload = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(vendorCreatePayload);
         Response response = vendorPage.createVendor(vendor_Payload);
+
         //Status Code Validation
-        Assert.assertEquals(response.statusCode(), 201);
+        Assert.assertEquals(response.statusCode(), StatusCode.CREATED);
 
-
-        //Schema validation
-        Assert.assertTrue(vendorPage.validateSchema(FileConstants.CREATE_VENDOR_SCHEMA,response.asString()));
+         //Schema validation
+        Assert.assertTrue(vendorPage.validateSchema(FileConstants.CREATE_VENDOR_SCHEMA,
+                response.asString()));
     }
 }
