@@ -91,7 +91,7 @@
                         <env>${environment}</env>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${xmlFile}.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
