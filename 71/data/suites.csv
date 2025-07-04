@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 04 20:08:15 GMT 2025","Fri Jul 04 20:08:17 GMT 2025","1861","Surefire suite","Surefire test","testScripts.EmployeeManagementBrandsTestCases","testScripts.EmployeeManagementBrandsTestCases","createBrands","createBrands",""
