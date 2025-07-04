@@ -65,5 +65,5 @@ jobs:
           subject: Test Email
           body: This is a test email sent from GitHub Actions.
           html: |
-            <h1>This is a test email</h1>
+            <h1>This is a test email for git actions</h1>
             <p>Test Paragraph</p>
