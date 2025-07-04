@@ -1,0 +1,229 @@
+{
+  "uid" : "78321e2c240bef13",
+  "name" : "createVendor",
+  "fullName" : "testScripts.VerifyVendorTestCase.createVendor",
+  "historyId" : "fe18de0331d88c42033721cd6f81408",
+  "time" : {
+    "start" : 1751631323360,
+    "stop" : 1751631326487,
+    "duration" : 3127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1751631313242,
+      "stop" : 1751631323303,
+      "duration" : 10061
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8820451686fb6a3",
+      "name" : "Request",
+      "source" : "8820451686fb6a3.html",
+      "type" : "text/html",
+      "size" : 1607
+    }, {
+      "uid" : "4db0a8caa7cbe2df",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "4db0a8caa7cbe2df.html",
+      "type" : "text/html",
+      "size" : 45664
+    }, {
+      "uid" : "a52279f633d9cb13",
+      "name" : "Request",
+      "source" : "a52279f633d9cb13.html",
+      "type" : "text/html",
+      "size" : 2306
+    }, {
+      "uid" : "45accd239911e943",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "45accd239911e943.html",
+      "type" : "text/html",
+      "size" : 2735
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1751631326528,
+      "stop" : 1751631326529,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testScripts.VerifyVendorTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "testScripts.VerifyVendorTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "createVendor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "D:/API_Shaila/RestAssured/May25API_OrangeHRM/src/test/java/testScripts/VerifyVendorTestCase.java"
+  }, {
+    "name" : "subSuite",
+    "value" : "testScripts.VerifyVendorTestCase"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1718-318"
+  }, {
+    "name" : "thread",
+    "value" : "2652@fv-az1718-318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "ea5c04af7c989354",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/56/#testresult/ea5c04af7c989354",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751626300758,
+          "stop" : 1751626303379,
+          "duration" : 2621
+        }
+      }, {
+        "uid" : "b7ac0245a48ccab9",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/11/#testresult/b7ac0245a48ccab9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751625841057,
+          "stop" : 1751625843934,
+          "duration" : 2877
+        }
+      }, {
+        "uid" : "15951277cc36983",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/10/#testresult/15951277cc36983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751625364540,
+          "stop" : 1751625367340,
+          "duration" : 2800
+        }
+      }, {
+        "uid" : "592fc510bd4dd68d",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/9/#testresult/592fc510bd4dd68d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751625099059,
+          "stop" : 1751625101550,
+          "duration" : 2491
+        }
+      }, {
+        "uid" : "41fbeea291f1c69c",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/51/#testresult/41fbeea291f1c69c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751624787292,
+          "stop" : 1751624793574,
+          "duration" : 6282
+        }
+      }, {
+        "uid" : "ddadf6c3e3e110d0",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/52/#testresult/ddadf6c3e3e110d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751624776516,
+          "stop" : 1751624782582,
+          "duration" : 6066
+        }
+      }, {
+        "uid" : "8cea44bd83e28b24",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/7/#testresult/8cea44bd83e28b24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751624392330,
+          "stop" : 1751624428989,
+          "duration" : 36659
+        }
+      }, {
+        "uid" : "37387d72283dc40c",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/6/#testresult/37387d72283dc40c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751624263784,
+          "stop" : 1751624266620,
+          "duration" : 2836
+        }
+      }, {
+        "uid" : "26227904607a25d7",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/49/#testresult/26227904607a25d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751622205568,
+          "stop" : 1751622208281,
+          "duration" : 2713
+        }
+      }, {
+        "uid" : "217e2ca402c7db24",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/5/#testresult/217e2ca402c7db24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751622198770,
+          "stop" : 1751622201693,
+          "duration" : 2923
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "78321e2c240bef13.json",
+  "parameterValues" : [ ]
+}
