@@ -1,4 +1,4 @@
-name: Sprint Developement
+name: Java Continous Integration with Maven
 
 on:
   workflow_dispatch:
@@ -24,11 +24,10 @@ jobs:
           cache: maven
 
       - name: Run Selected testCases using maven
-        continue-on-error: true
         run: |
           echo "Running the following test cases:"
           echo "${{ github.event.inputs.test_cases }}"
-          mvn -Dtest="${{ github.event.inputs.test_cases }}"
+          mvn -Danchtest="${{ github.event.inputs.test_cases }}"
 
       - name: Checkout gh-pages branch
         uses: actions/checkout@v4
