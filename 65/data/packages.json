@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "testScripts",
+    "children" : [ {
+      "name" : "BrandsTestCases",
+      "children" : [ {
+        "name" : "createBrands",
+        "uid" : "6909df7b2147adbe",
+        "parentUid" : "4c7679e224f779ce8db7bf8b5bcc81e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751650384307,
+          "stop" : 1751650386153,
+          "duration" : 1846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c7679e224f779ce8db7bf8b5bcc81e4"
+    }, {
+      "name" : "VerifyWidgetTest",
+      "children" : [ {
+        "name" : "VerifyWidget",
+        "uid" : "bc73210e7147802d",
+        "parentUid" : "0f5e821831ad2bc8e808dd0a783a5543",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751650386220,
+          "stop" : 1751650387593,
+          "duration" : 1373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySkillsAscending",
+        "uid" : "2c04909e3687446",
+        "parentUid" : "0f5e821831ad2bc8e808dd0a783a5543",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751650387596,
+          "stop" : 1751650388789,
+          "duration" : 1193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f5e821831ad2bc8e808dd0a783a5543"
+    }, {
+      "name" : "VerifyVendorTestCase",
+      "children" : [ {
+        "name" : "createVendor",
+        "uid" : "2e7f85f59a0b24db",
+        "parentUid" : "1d4e5591c5ba006509f2afeefe694454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751650388795,
+          "stop" : 1751650390105,
+          "duration" : 1310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d4e5591c5ba006509f2afeefe694454"
+    } ],
+    "uid" : "3544dc75f7203377ede3d6c369723155"
+  } ],
+  "name" : "packages"
+}
