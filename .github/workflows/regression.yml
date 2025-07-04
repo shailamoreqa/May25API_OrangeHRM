@@ -69,6 +69,6 @@ jobs:
             The Allure report for the latest run in ${{ github.repository }} is available at:
             https://shailamoreqa.github.io/May25API_OrangeHRM/${{ github.run_number }}
             
-            Thanks
+            Thanks and Regards
             Shaila
 
