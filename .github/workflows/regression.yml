@@ -25,7 +25,7 @@ jobs:
 
       - name: Build with Maven
         run: |
-          mvn clean test -DxmlFile=regression  
+          mvn clean test  
           mvn -version
 
       - name: Checkout gh-pages branch
