@@ -1,0 +1,166 @@
+{
+  "uid" : "c9a7bb1f0060a59b",
+  "name" : "createBrands",
+  "fullName" : "testScripts.EmployeeManagementBrandsTestCases.createBrands",
+  "historyId" : "77b13ab9e51fec4699f7e185808355e3",
+  "time" : {
+    "start" : 1751659637802,
+    "stop" : 1751659640113,
+    "duration" : 2311
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1751659631610,
+      "stop" : 1751659637755,
+      "duration" : 6145
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41c257db971eefd9",
+      "name" : "Request",
+      "source" : "41c257db971eefd9.html",
+      "type" : "text/html",
+      "size" : 1605
+    }, {
+      "uid" : "c1a8dc6d922b0c5b",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c1a8dc6d922b0c5b.html",
+      "type" : "text/html",
+      "size" : 10381
+    }, {
+      "uid" : "392bee929fe94e9b",
+      "name" : "Request",
+      "source" : "392bee929fe94e9b.html",
+      "type" : "text/html",
+      "size" : 1826
+    }, {
+      "uid" : "4e473aea2d6b9765",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "4e473aea2d6b9765.html",
+      "type" : "text/html",
+      "size" : 2452
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1751659640156,
+      "stop" : 1751659640156,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testScripts.EmployeeManagementBrandsTestCases"
+  }, {
+    "name" : "testClass",
+    "value" : "testScripts.EmployeeManagementBrandsTestCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "createBrands"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testScripts.EmployeeManagementBrandsTestCases"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1693-34"
+  }, {
+    "name" : "thread",
+    "value" : "2630@fv-az1693-34.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "d67a0ebbc0c03d2e",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/69/#testresult/d67a0ebbc0c03d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751659519731,
+          "stop" : 1751659521982,
+          "duration" : 2251
+        }
+      }, {
+        "uid" : "f61fae12347466af",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/68/#testresult/f61fae12347466af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751659406123,
+          "stop" : 1751659407987,
+          "duration" : 1864
+        }
+      }, {
+        "uid" : "4e23a823572dab7",
+        "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/67/#testresult/4e23a823572dab7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751659222108,
+          "stop" : 1751659224452,
+          "duration" : 2344
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c9a7bb1f0060a59b.json",
+  "parameterValues" : [ ]
+}
