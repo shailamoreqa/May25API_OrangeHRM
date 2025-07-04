@@ -1,4 +1,11 @@
-name: Java Continuous Integration with Maven
+name: Java Continous Integration with Maven
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -6,7 +13,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout codes
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
@@ -18,10 +25,10 @@ jobs:
 
       - name: Build with Maven
         run: |
-          mvn clean test  
+          mvn clean test
           mvn -version
 
-      - name: Checkout gh-pages branches
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v4
         if: always()
         with:
