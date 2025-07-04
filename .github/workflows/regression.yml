@@ -56,7 +56,7 @@ jobs:
         uses: hilarion5/send-mail@v1
         with:
           smtp-server: smtp.gmail.com
-          smtp-port: 587
+          smtp-port: 465
           smtp-secure: true
           from-email: shailamore.qa@gmail.com
           to-email: shailabhoyate@gmail.com,shailamore3012@gmmail.com
