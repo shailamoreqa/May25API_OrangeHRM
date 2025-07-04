@@ -61,7 +61,7 @@ jobs:
           from-email: shailamore.qa@gmail.com
           to-email: shailabhoyate@gmail.com,shailamore3012@gmmail.com
           username: shailamore.qa@gmail.com
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.PASSWORD }}
           subject: Test Email
           body: This is a test email sent from GitHub Actions.
           html: |
