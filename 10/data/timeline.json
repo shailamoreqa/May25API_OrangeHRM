@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1755-878",
+    "children" : [ {
+      "name" : "2680@fv-az1755-878.main(1)",
+      "children" : [ {
+        "name" : "createVendor",
+        "uid" : "15951277cc36983",
+        "parentUid" : "9596b68a1552bf921edfea61bc7b9a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751625364540,
+          "stop" : 1751625367340,
+          "duration" : 2800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyWidget",
+        "uid" : "6c9c5df65908a8d2",
+        "parentUid" : "9596b68a1552bf921edfea61bc7b9a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751625367429,
+          "stop" : 1751625369307,
+          "duration" : 1878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySkillsAscending",
+        "uid" : "d1881c22f50234df",
+        "parentUid" : "9596b68a1552bf921edfea61bc7b9a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751625369310,
+          "stop" : 1751625371284,
+          "duration" : 1974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9596b68a1552bf921edfea61bc7b9a6c"
+    } ],
+    "uid" : "75796a156b9d9b18e811974a818ff48d"
+  } ],
+  "name" : "timeline"
+}
