@@ -1,0 +1,41 @@
+[ {
+  "uid" : "35023e35b9ca8cdb",
+  "name" : "createVendor",
+  "time" : {
+    "start" : 1751650571080,
+    "stop" : 1751650572664,
+    "duration" : 1584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfe6486f2f4af162",
+  "name" : "createBrands",
+  "time" : {
+    "start" : 1751650566056,
+    "stop" : 1751650568116,
+    "duration" : 2060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe129708433ebc9",
+  "name" : "verifySkillsAscending",
+  "time" : {
+    "start" : 1751650569656,
+    "stop" : 1751650571074,
+    "duration" : 1418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3db386b5bf6cdb9e",
+  "name" : "VerifyWidget",
+  "time" : {
+    "start" : 1751650568175,
+    "stop" : 1751650569651,
+    "duration" : 1476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
