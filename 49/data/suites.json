@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "D:/API_Shaila/RestAssured/May25API_OrangeHRM/src/test/java/testScripts/VerifyVendorTestCase.java",
+      "children" : [ {
+        "name" : "testScripts.VerifyVendorTestCase",
+        "children" : [ {
+          "name" : "createVendor",
+          "uid" : "26227904607a25d7",
+          "parentUid" : "ba211a622f7bcb28b9cb702c30e4799d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1751622205568,
+            "stop" : 1751622208281,
+            "duration" : 2713
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ba211a622f7bcb28b9cb702c30e4799d"
+      } ],
+      "uid" : "0d5a2290e1b589f5792a406bb6214ebd"
+    }, {
+      "name" : "D:/API_Shaila/RestAssured/May25API_OrangeHRM/src/test/java/testScripts/VerifyWidgetTest.java",
+      "children" : [ {
+        "name" : "testScripts.VerifyWidgetTest",
+        "children" : [ {
+          "name" : "VerifyWidget",
+          "uid" : "16bc9958d6a15613",
+          "parentUid" : "905145ed4c06cd23f6fa69a1f53a2c02",
+          "status" : "passed",
+          "time" : {
+            "start" : 1751622208348,
+            "stop" : 1751622210420,
+            "duration" : 2072
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySkillsAscending",
+          "uid" : "d4737d38f9397b65",
+          "parentUid" : "905145ed4c06cd23f6fa69a1f53a2c02",
+          "status" : "passed",
+          "time" : {
+            "start" : 1751622210423,
+            "stop" : 1751622212396,
+            "duration" : 1973
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "905145ed4c06cd23f6fa69a1f53a2c02"
+      } ],
+      "uid" : "f2c2a782d20182dc746f2a0a651dc0b2"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ],
+  "name" : "suites"
+}
