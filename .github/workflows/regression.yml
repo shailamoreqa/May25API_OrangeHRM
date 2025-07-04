@@ -68,6 +68,6 @@ jobs:
                 This is a test email sent from GitHub Actions for latest checkin
             Allure report for the latest run in ${{ github.repository }} is available at
             https://github:com/shailamoreqa/May25API_OrangeHRM/${{ github.run_number }}
-          Thanks
-          Shaila
+            Thanks
+            Shaila
 
