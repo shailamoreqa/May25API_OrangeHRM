@@ -1,7 +1,4 @@
 name: Java Continuous Integration with Maven
-
-on: {}
-
 jobs:
   build:
     runs-on: ubuntu-latest
