@@ -13,7 +13,11 @@ public abstract class FileConstants {
     public static final String SCHEMA_FILE_PATH=System.getProperty("user.dir")+ File.separator+"src"
             +File.separator+"test"+File.separator+"resources"+File.separator+"schema.vendor";
 
+    //Vendor Schema
     public static final String CREATE_VENDOR_SCHEMA=SCHEMA_FILE_PATH + File.separator+"createVendorSchema.json";
+
+    //Brand Schema
+    public static final String CREATE_BRAND_SCHEMA=SCHEMA_FILE_PATH + File.separator+"createBrandsSchema.json";
 
 
 }

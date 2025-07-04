@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "messages": {
+      "type": "string",
+      "minLength": 1
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brandCode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brandName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "createdAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "updatedAt": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "brandCode",
+        "brandName",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "permissions": {
+          "type": "object",
+          "properties": {
+            "delete": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "delete"
+          ]
+        }
+      },
+      "required": [
+        "permissions"
+      ]
+    }
+  },
+  "required": [
+    "messages",
+    "data",
+    "meta"
+  ]
+}

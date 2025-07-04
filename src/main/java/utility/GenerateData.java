@@ -37,5 +37,9 @@ public class GenerateData {
         return faker.phoneNumber().phoneNumber();
     }
 
+    public static String generateBrandName(){
+        return faker.company().name();
+    }
+
 
 }
