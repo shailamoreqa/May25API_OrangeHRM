@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 62,
+  "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 61,
   "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/61",
   "reportName" : "Allure Report with history",

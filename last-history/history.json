@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "78296adb4f567a87",
+      "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62/#testresult/78296adb4f567a87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751649343341,
+        "stop" : 1751649345104,
+        "duration" : 1763
+      }
+    }, {
       "uid" : "561bd696600dc89f",
       "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62/#testresult/561bd696600dc89f",
       "status" : "passed",
@@ -141,11 +150,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "8f046beadb4d0153",
+      "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62/#testresult/8f046beadb4d0153",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751649341576,
+        "stop" : 1751649343337,
+        "duration" : 1761
+      }
+    }, {
       "uid" : "52356739cbb579fb",
       "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62/#testresult/52356739cbb579fb",
       "status" : "passed",
@@ -278,11 +296,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "d420d4e390c4b5e1",
+      "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62/#testresult/d420d4e390c4b5e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751649338587,
+        "stop" : 1751649341503,
+        "duration" : 2916
+      }
+    }, {
       "uid" : "ac6b5c650bd6f750",
       "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62/#testresult/ac6b5c650bd6f750",
       "status" : "passed",

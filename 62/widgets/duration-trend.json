@@ -3,6 +3,13 @@
   "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 6517
+  }
+}, {
+  "buildOrder" : 62,
+  "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 4617
   }
 }, {

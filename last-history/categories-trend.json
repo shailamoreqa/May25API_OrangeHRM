@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 62,
+  "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/62",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 61,
   "reportUrl" : "https://shailamoreqa.github.io/May25API_OrangeHRM/61",
   "reportName" : "Allure Report with history",
