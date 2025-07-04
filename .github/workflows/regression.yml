@@ -52,7 +52,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
-      - name: Send Emails
+      - name: Sending Emails
         uses: hilarion5/send-mail@v1
         with:
           smtp-server: smtp.gmail.com
