@@ -45,7 +45,6 @@ jobs:
           allure_report: allure-report
           allure_history: allure-history
           retention_period: 5
-
       - name: Deploy Allure Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
@@ -53,19 +52,18 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
-
-        - name: Send Emails
-          uses: hilarion5/send-mail@v1
-          with:
-            smtp-server: smtp.gmail.com
-            smtp-port: 587
-            smtp-secure: true
-            from-email: shailamore.qa@gmail.com
-            to-email: shailabhoyate@gmail.com,shailamore3012@gmmail.com
-            username: shailamore.qa@gmail.com
-            password: ${{ secrets.GITHUB_TOKEN }}
-            subject: Test Email
-            body: This is a test email sent from GitHub Actions.
-            html: |
-              <h1>This is a test email</h1>
-              <p>Test Paragraph</p>
+      - name: Send Emails
+        uses: hilarion5/send-mail@v1
+        with:
+          smtp-server: smtp.gmail.com
+          smtp-port: 587
+          smtp-secure: true
+          from-email: shailamore.qa@gmail.com
+          to-email: shailabhoyate@gmail.com,shailamore3012@gmmail.com
+          username: shailamore.qa@gmail.com
+          password: ${{ secrets.GITHUB_TOKEN }}
+          subject: Test Email
+          body: This is a test email sent from GitHub Actions.
+          html: |
+            <h1>This is a test email</h1>
+            <p>Test Paragraph</p>
