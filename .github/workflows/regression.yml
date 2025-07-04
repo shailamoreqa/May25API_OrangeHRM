@@ -63,8 +63,8 @@ jobs:
           username: shailamore.qa@gmail.com
           password: ${{ secrets.PASSWORD }}
           subject: Test Email
-          body:|
-            Hello Everyone ,
+          body: |
+            Hello Everyone,
                 This is a test email sent from GitHub Actions for latest checkin
             Allure report for the latest run in ${{ github.repository }} is available at
             https://github:com/shailamoreqa/May25API_OrangeHRM/${{ github.run_number }}
