@@ -24,7 +24,7 @@ jobs:
           mvn clean test -DxmlFile=regression  
           mvn -version
 
-      - name: Checkout gh-pages branch
+      - name: Checkout gh-pages branches
         uses: actions/checkout@v4
         if: always()
         with:
