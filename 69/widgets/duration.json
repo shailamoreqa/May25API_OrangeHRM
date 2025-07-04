@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d67a0ebbc0c03d2e",
+  "name" : "createBrands",
+  "time" : {
+    "start" : 1751659519731,
+    "stop" : 1751659521982,
+    "duration" : 2251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
