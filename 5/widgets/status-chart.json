@@ -1,0 +1,31 @@
+[ {
+  "uid" : "8f9aff9bbf590a3d",
+  "name" : "VerifyWidget",
+  "time" : {
+    "start" : 1751622201761,
+    "stop" : 1751622204820,
+    "duration" : 3059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebd3a1a8285e4d20",
+  "name" : "verifySkillsAscending",
+  "time" : {
+    "start" : 1751622204824,
+    "stop" : 1751622207230,
+    "duration" : 2406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "217e2ca402c7db24",
+  "name" : "createVendor",
+  "time" : {
+    "start" : 1751622198770,
+    "stop" : 1751622201693,
+    "duration" : 2923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
