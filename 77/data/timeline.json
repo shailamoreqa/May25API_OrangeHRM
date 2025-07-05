@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1695-328",
+    "children" : [ {
+      "name" : "2663@fv-az1695-328.main(1)",
+      "children" : [ {
+        "name" : "createBrands",
+        "uid" : "ec10d35cdf87adeb",
+        "parentUid" : "df03d1b9c2b3787968a1d4c6c7f37489",
+        "status" : "passed",
+        "time" : {
+          "start" : 1751721575323,
+          "stop" : 1751721577537,
+          "duration" : 2214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df03d1b9c2b3787968a1d4c6c7f37489"
+    } ],
+    "uid" : "a032d0cdf0475184ea9eb23455d51432"
+  } ],
+  "name" : "timeline"
+}

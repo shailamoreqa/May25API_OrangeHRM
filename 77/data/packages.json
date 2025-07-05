@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "testScripts.EmployeeManagementBrandsTestCases",
+    "children" : [ {
+      "name" : "createBrands",
+      "uid" : "ec10d35cdf87adeb",
+      "parentUid" : "419a65028d9eb0e0f174e315c7dbbdd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1751721575323,
+        "stop" : 1751721577537,
+        "duration" : 2214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testScripts.EmployeeManagementBrandsTestCases"
+  } ],
+  "name" : "packages"
+}
