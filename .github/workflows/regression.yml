@@ -1,14 +1,11 @@
 name: Sprint Development
 
 on:
-  pull_request:
-    branches: [ "master" ]
   workflow_dispatch:
     inputs:
       test_cases:
         description: 'Test cases to run (e.g., LoginTests#testLogin+testLogout,SignupTests#testSignup)'
         required: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
