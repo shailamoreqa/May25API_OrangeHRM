@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a0f8f12db03a8f61",
+  "name" : "createVendor",
+  "time" : {
+    "start" : 1751726772423,
+    "stop" : 1751726774354,
+    "duration" : 1931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

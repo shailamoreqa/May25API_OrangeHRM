@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "testScripts.EmployeeManagementVendorTest",
+        "children" : [ {
+          "name" : "createVendor",
+          "uid" : "a0f8f12db03a8f61",
+          "parentUid" : "8efb623737e59fc04ac20c006a6f427d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1751726772423,
+            "stop" : 1751726774354,
+            "duration" : 1931
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8efb623737e59fc04ac20c006a6f427d"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}
