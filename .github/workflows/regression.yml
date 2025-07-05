@@ -62,4 +62,19 @@ jobs:
       - name: Sending Emails
         uses: hilarion5/send-mail@v1
         with:
-          smtp-server: smtp.gmail.
+          smtp-server: smtp.gmail.com
+          smtp-port: 465
+          smtp-secure: true
+          from-email: shailamore.qa@gmail.com
+          to-email: shailamore.qa@gmail.com,shailamore.bis@gmail.com
+          username: shailamore.qa@gmail.com
+          password: ${{ secrets.PASSWORD }}
+          subject: Test Email
+          body: |
+            Hello Everyone,
+                This is a test email sent from GitHub Actions for latest checkin
+            The Allure report for the latest run in ${{ github.repository }} is available at:
+            https://shailamoreqa.github.io/May25API_OrangeHRM/${{ github.run_number }}
+            
+            Thanks and Regards
+            Shaila More
