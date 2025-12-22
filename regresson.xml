@@ -6,7 +6,7 @@
         <classes>
             <class name="testScripts.VerifyVendorTestCase">
                 <methods>
-                    <include name="createVendor_test"/>
+                    <include name="createVendor"/>
                 </methods>
             </class>
         </classes>
